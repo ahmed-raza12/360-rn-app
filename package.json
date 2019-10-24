@@ -1,0 +1,41 @@
+{
+  "name": "ecommob",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "autoresponsive-react-native": "^1.0.9",
+    "native-base": "^2.13.8",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-image-crop-picker": "^0.26.0",
+    "react-native-modal-datetime-picker": "^7.6.0",
+    "react-native-reanimated": "^1.3.0",
+    "react-native-safe-area-view": "^1.0.0",
+    "react-native-screens": "^2.0.0-alpha.3",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.8",
+    "react-navigation-drawer": "^2.2.2",
+    "react-navigation-stack": "^1.9.3",
+    "react-navigation-tabs": "^2.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.2",
+    "@babel/runtime": "7.6.2",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.4.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
